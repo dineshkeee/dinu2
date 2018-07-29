@@ -6,7 +6,7 @@ public class armstrongBtwTwoNum {
 		Scanner in=new Scanner(System.in);
 		a=in.nextInt();
 		b=in.nextInt();
-		for(i=a;i<=b;i++,sum=0){
+		for(i=a+1;i<b;i++,sum=0){
 		     l=Integer.toString(i).length();
 		    c=i;
 		while(c!=0){
