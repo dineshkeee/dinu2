@@ -6,9 +6,9 @@ public class swapingTwoNumUsingBit {
 			Scanner in=new Scanner(System.in);
 			a=in.nextInt();
 			b=in.nextInt();
-			a=a^b;System.out.println(a);
-			b=a^b;System.out.println(b);
-			a=a^b;System.out.println(a);
+			a=a^b;
+			b=a^b;
+			a=a^b;
 			System.out.println(a+" "+b);
 		}
 }
