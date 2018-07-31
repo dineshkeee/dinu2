@@ -5,7 +5,7 @@ public class minutes {
 			Scanner in=new Scanner(System.in);
 	         int  a=in.nextInt();
 	         	if(a>=60){
-	         		System.out.println(a/60+" Hours "+a%60+" minutes");
-	         	}else System.out.println(0+" Hours"+a+" minutes");
+	         		System.out.println(a/60+" "+a%60);
+	         	}else System.out.println(0+" "+a);
 		}
 }
